@@ -52,6 +52,14 @@ public class Main implements Podcast2 {
      */
     @Override
     public List<String> items() {
+        /*
+            用户的选择List<Integer> selectEpisode
+            根据集合首个元素进行判断：
+                -1：最近30集
+                 0：最新一集
+                 1：自定义剧集
+         */
+
         return null;
     }
 
